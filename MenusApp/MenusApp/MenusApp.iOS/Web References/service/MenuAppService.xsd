@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/Tds.Web.Service" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Tds.Web.Service" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ArrayOfResourceSource">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ResourceSource" nillable="true" type="tns:ResourceSource" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfResourceSource" nillable="true" type="tns:ArrayOfResourceSource" />
+  <xs:complexType name="ResourceSource">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Binary" nillable="true" type="xs:base64Binary" />
+      <xs:element minOccurs="0" name="MediaName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ResourceSource" nillable="true" type="tns:ResourceSource" />
+</xs:schema>

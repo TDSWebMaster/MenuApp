@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "MenusApp", "MenusApp\MenusApp\MenusApp.shproj", "{B7085C6E-48EE-494B-9DB6-7AC79FBB52B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MenusApp.iOS", "MenusApp\MenusApp.iOS\MenusApp.iOS.csproj", "{B55ED910-8ABB-43A2-B4EB-4522E4BD6D26}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		MenusApp\MenusApp\MenusApp.projitems*{b55ed910-8abb-43a2-b4eb-4522e4bd6d26}*SharedItemsImports = 4
+		MenusApp\MenusApp\MenusApp.projitems*{b7085c6e-48ee-494b-9db6-7ac79fbb52b5}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		Ad-Hoc|iPhoneSimulator = Ad-Hoc|iPhoneSimulator
+		AppStore|Any CPU = AppStore|Any CPU
+		AppStore|iPhone = AppStore|iPhone
+		AppStore|iPhoneSimulator = AppStore|iPhoneSimulator
+		Debug|Any CPU = Debug|Any CPU
+		Debug|iPhone = Debug|iPhone
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|Any CPU = Release|Any CPU
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B55ED910-8ABB-43A2-B4EB-4522E4BD6D26}.Ad-Hoc|Any CPU.ActiveCfg = Ad-Hoc|iPhone
+		{B55ED910-8ABB-43A2-B4EB-4522E4BD6D26}.Ad-Hoc|iPhone.ActiveCfg = Debug|iPhone
+		{B55ED910-8ABB-43A2-B4EB-4522E4BD6D26}.Ad-Hoc|iPhone.Build.0 = Debug|iPhone
+		{B55ED910-8ABB-43A2-B4EB-4522E4BD6D26}.Ad-Hoc|iPhoneSimulator.ActiveCfg = Ad-Hoc|iPhoneSimulator
+		{B55ED910-8ABB-43A2-B4EB-4522E4BD6D26}.Ad-Hoc|iPhoneSimulator.Build.0 = Ad-Hoc|iPhoneSimulator
+		{B55ED910-8ABB-43A2-B4EB-4522E4BD6D26}.AppStore|Any CPU.ActiveCfg = AppStore|iPhone
+		{B55ED910-8ABB-43A2-B4EB-4522E4BD6D26}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{B55ED910-8ABB-43A2-B4EB-4522E4BD6D26}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{B55ED910-8ABB-43A2-B4EB-4522E4BD6D26}.AppStore|iPhoneSimulator.ActiveCfg = AppStore|iPhoneSimulator
+		{B55ED910-8ABB-43A2-B4EB-4522E4BD6D26}.AppStore|iPhoneSimulator.Build.0 = AppStore|iPhoneSimulator
+		{B55ED910-8ABB-43A2-B4EB-4522E4BD6D26}.Debug|Any CPU.ActiveCfg = Debug|iPhone
+		{B55ED910-8ABB-43A2-B4EB-4522E4BD6D26}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{B55ED910-8ABB-43A2-B4EB-4522E4BD6D26}.Debug|iPhone.Build.0 = Debug|iPhone
+		{B55ED910-8ABB-43A2-B4EB-4522E4BD6D26}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{B55ED910-8ABB-43A2-B4EB-4522E4BD6D26}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{B55ED910-8ABB-43A2-B4EB-4522E4BD6D26}.Release|Any CPU.ActiveCfg = Release|iPhone
+		{B55ED910-8ABB-43A2-B4EB-4522E4BD6D26}.Release|iPhone.ActiveCfg = Release|iPhone
+		{B55ED910-8ABB-43A2-B4EB-4522E4BD6D26}.Release|iPhone.Build.0 = Release|iPhone
+		{B55ED910-8ABB-43A2-B4EB-4522E4BD6D26}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{B55ED910-8ABB-43A2-B4EB-4522E4BD6D26}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://svr-tfs:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = MenusApp\\MenusApp\\MenusApp.shproj
+		SccProjectName1 = MenusApp/MenusApp
+		SccLocalPath1 = MenusApp\\MenusApp
+		SccProjectUniqueName2 = MenusApp\\MenusApp\\MenusApp.projitems
+		SccProjectTopLevelParentUniqueName2 = MenusApp\\MenusApp\\MenusApp.shproj
+		SccProjectName2 = MenusApp/MenusApp
+		SccLocalPath2 = MenusApp\\MenusApp
+		SccProjectUniqueName3 = MenusApp\\MenusApp.iOS\\MenusApp.iOS.csproj
+		SccProjectName3 = MenusApp/MenusApp.iOS
+		SccLocalPath3 = MenusApp\\MenusApp.iOS
+	EndGlobalSection
+EndGlobal

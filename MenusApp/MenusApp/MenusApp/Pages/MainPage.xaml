@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MenusApp"
+             x:Class="MenusApp.Pages.MainPage">
+   <AbsoluteLayout>
+      <Image AbsoluteLayout.LayoutBounds="0,0,768,864" Source="HomePageLogo.jpg"></Image>
+      <Button AbsoluteLayout.LayoutBounds="0,0,768,864" x:Name="LoadMenu" Clicked="LoadMenu_Clicked"></Button>
+      <Image AbsoluteLayout.LayoutBounds="0,864,768,160" Source="bottom_bar.jpg"></Image>
+      <Button AbsoluteLayout.LayoutBounds="580,903,150,35" x:Name="ChineseButton" Clicked="ChineseButton_Clicked"></Button>
+      <Button AbsoluteLayout.LayoutBounds="580,955,150,35" x:Name="EnglishButton" Clicked="EnglishButton_Clicked"></Button>
+   </AbsoluteLayout>
+</ContentPage>

@@ -1,0 +1,161 @@
+﻿{
+   "Language": 0,
+   "MenuItems": [
+      {
+         "ItemImage": "GoiCuon.jpg",
+         "languageImages": [
+            {
+               "ItemGroupName": "starters_english.png",
+               "DescriptionImage": "GoiCuon_english.png"
+            },
+            {
+               "ItemGroupName": "starters_chinese.png",
+               "DescriptionImage": "GoiCuon_chinese.png"
+            }
+         ]
+      },
+      {
+         "ItemImage": "PotStickers.jpg",
+         "languageImages": [
+            {
+               "ItemGroupName": "starters_english.png",
+               "DescriptionImage": "PotStickers_english.png"
+            },
+            {
+               "ItemGroupName": "starters_chinese.png",
+               "DescriptionImage": "PotStickers_chinese.png"
+            }
+         ]
+      },
+      {
+         "ItemImage": "SiuMai.jpg",
+         "languageImages": [
+            {
+               "ItemGroupName": "starters_english.png",
+               "DescriptionImage": "SiuMai_english.png"
+            },
+            {
+               "ItemGroupName": "starters_chinese.png",
+               "DescriptionImage": "SiuMai_chinese.png"
+            }
+         ]
+      },
+      {
+         "ItemImage": "WontonSoup.jpg",
+         "languageImages": [
+            {
+               "ItemGroupName": "soups_english.png",
+               "DescriptionImage": "WontonSoup_english.png"
+            },
+            {
+               "ItemGroupName": "soups_chinese.png",
+               "DescriptionImage": "WontonSoup_chinese.png"
+            }
+         ]
+      },
+      {
+         "ItemImage": "Pho.jpg",
+         "languageImages": [
+            {
+               "ItemGroupName": "soups_english.png",
+               "DescriptionImage": "Pho_english.png"
+            },
+            {
+               "ItemGroupName": "soups_chinese.png",
+               "DescriptionImage": "Pho_chinese.png"
+            }
+         ]
+      },
+      {
+         "ItemImage": "FriedRice.jpg",
+         "languageImages": [
+            {
+               "ItemGroupName": "rice_english.png",
+               "DescriptionImage": "FriedRice_english.png"
+            },
+            {
+               "ItemGroupName": "rice_chinese.png",
+               "DescriptionImage": "FriedRice_chinese.png"
+            }
+         ]
+      },
+      {
+         "ItemImage": "PadThai.jpg",
+         "languageImages": [
+            {
+               "ItemGroupName": "noodles_english.png",
+               "DescriptionImage": "PadThai_english.png"
+            },
+            {
+               "ItemGroupName": "noodles_chinese.png",
+               "DescriptionImage": "PadThai_chinese.png"
+            }
+         ]
+      },
+      {
+         "ItemImage": "ChowMein.jpg",
+         "languageImages": [
+            {
+               "ItemGroupName": "noodles_english.png",
+               "DescriptionImage": "ChowMein_english.png"
+            },
+            {
+               "ItemGroupName": "noodles_chinese.png",
+               "DescriptionImage": "ChowMein_chinese.png"
+            }
+         ]
+      },
+      {
+         "ItemImage": "MongolianPlate.jpg",
+         "languageImages": [
+            {
+               "ItemGroupName": "plates_english.png",
+               "DescriptionImage": "MongolianPlate_english.png"
+            },
+            {
+               "ItemGroupName": "plates_chinese.png",
+               "DescriptionImage": "MongolianPlate_chinese.png"
+            }
+         ]
+      },
+      {
+         "ItemImage": "HoneyShrimp.jpg",
+         "languageImages": [
+            {
+               "ItemGroupName": "plates_english.png",
+               "DescriptionImage": "HoneyShrimp_english.png"
+            },
+            {
+               "ItemGroupName": "plates_chinese.png",
+               "DescriptionImage": "HoneyShrimp_chinese.png"
+            }
+         ]
+      },
+      {
+         "ItemImage": "GarlicPrawns.jpg",
+         "languageImages": [
+            {
+               "ItemGroupName": "plates_english.png",
+               "DescriptionImage": "GarlicPrawns_english.png"
+            },
+            {
+               "ItemGroupName": "plates_chinese.png",
+               "DescriptionImage": "GarlicPrawns_chinese.png"
+            }
+         ]
+      },
+      {
+         "ItemImage": "BeefBroccoli.jpg",
+         "languageImages": [
+            {
+               "ItemGroupName": "plates_english.png",
+               "DescriptionImage": "BeefBroccoli_english.png"
+            },
+            {
+               "ItemGroupName": "plates_chinese.png",
+               "DescriptionImage": "BeefBroccoli_chinese.png"
+            }
+         ]
+      }
+   ]
+}

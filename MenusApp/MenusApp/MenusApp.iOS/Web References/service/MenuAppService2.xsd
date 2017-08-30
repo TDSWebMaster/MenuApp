@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://mobilecmssvc.tulalipdata.net/MenuAppService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Tds.CMS.DataObjects" />
+  <xs:import schemaLocation="http://mobilecmssvc.tulalipdata.net/MenuAppService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/Tds.Web.Service" />
+  <xs:import schemaLocation="http://mobilecmssvc.tulalipdata.net/MenuAppService.svc?xsd=xsd4" namespace="http://schemas.microsoft.com/Message" />
+  <xs:element name="GetSectionJSON">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CurrentDate" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="ApplicationId" type="xs:int" />
+        <xs:element minOccurs="0" name="webpageName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="SectionName" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetSectionJSONResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetSectionJSONResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetResourcesForSection">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CurrentDate" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="ApplicationId" type="xs:int" />
+        <xs:element minOccurs="0" name="webpageName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sectionName" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetResourcesForSectionResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/Tds.CMS.DataObjects" minOccurs="0" name="GetResourcesForSectionResult" nillable="true" type="q1:ArrayOfResource" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetResourceSourcesForSection">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CurrentDate" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="ApplicationId" type="xs:int" />
+        <xs:element minOccurs="0" name="webpageName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sectionName" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetResourceSourcesForSectionResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/Tds.Web.Service" minOccurs="0" name="GetResourceSourcesForSectionResult" nillable="true" type="q2:ArrayOfResourceSource" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetMediaStream">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="MediaName" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetMediaStreamResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.microsoft.com/Message" name="GetMediaStreamResult" type="q3:StreamBody" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

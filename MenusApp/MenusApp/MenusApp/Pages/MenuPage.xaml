@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MenusApp.Pages.MenuPage"
+             xmlns:cv="clr-namespace:Xamarin.Forms;assembly=Xamarin.Forms.CarouselView"
+             Title="CarouselPage" BackgroundColor="White">
+   <AbsoluteLayout>
+      <Image AbsoluteLayout.LayoutBounds="0,564,768,300" Source="MiddleTan.jpg"></Image>
+      <cv:CarouselView AbsoluteLayout.LayoutBounds="0,0,768,864" ItemsSource="{Binding MenuItems}" x:Name="MenuCarousel">
+         <cv:CarouselView.ItemTemplate>
+            <DataTemplate>
+               <AbsoluteLayout>
+                  <StackLayout Spacing="0">
+                     <Image Source="{Binding ActiveItemImage}"></Image>
+                     <Image Source="{Binding ActiveDescription}"></Image>
+                  </StackLayout>
+                  <Image Source="{Binding ActiveGroupName}"></Image>
+               </AbsoluteLayout>
+            </DataTemplate>
+         </cv:CarouselView.ItemTemplate>
+      </cv:CarouselView>
+      <Image AbsoluteLayout.LayoutBounds="0,864,384,160" Source="HomeNavLogo_384x160px.jpg"></Image>
+      <Image AbsoluteLayout.LayoutBounds="0,864,768,160" Source="bottom_bar.jpg"></Image>
+      <Button AbsoluteLayout.LayoutBounds="580,903,150,35" x:Name="ChineseButton" Clicked="ChineseButton_Clicked"></Button>
+      <Button AbsoluteLayout.LayoutBounds="580,955,150,35" x:Name="EnglishButton" Clicked="EnglishButton_Clicked"></Button>
+      <Button AbsoluteLayout.LayoutBounds="10,870,370,150" Clicked="HomeButton_Clicked"></Button>
+      <Button AbsoluteLayout.LayoutBounds="0,670,100,100" TextColor="White" Image="insideArrowL_12x100px.png" x:Name="MoveLeftButton" Clicked="MoveLeftButton_Clicked"></Button>
+      <Button AbsoluteLayout.LayoutBounds="670,670,100,100" TextColor="White" Image="insideArrowR_12x100px.png" x:Name="MoveRightButton" Clicked="MoveRightButton_Clicked"></Button>
+   </AbsoluteLayout>
+</ContentPage>
